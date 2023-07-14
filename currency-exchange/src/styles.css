@@ -1,0 +1,41 @@
+.block_exchange_name {
+    display: flex;
+    justify-content: center;
+}
+
+.exchange_name {
+    font-size: 30px;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+#btnGet {
+    display: flex;
+    margin: 0 auto;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 800;
+    background-color: #bb7190;
+    color: azure;
+}
+
+td,
+th {
+    border-top: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 10px;
+}
+
+th {
+    background-color: #e6adc5;
+}
+
+tr:nth-of-type(even) {
+    background-color: #e6fef2;
+}
